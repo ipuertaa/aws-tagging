@@ -9,10 +9,10 @@ output "required_tags" {
 
     value = merge(var.optional_tags,
     {
-        Owner = var.owner
-        Application = var.application
-        Environment = var.environment
-        ManagedBy = var.managedBy
+        owner = var.owner
+        application = var.application
+        environment = var.environment
+        managedBy = var.managedBy
     }
     )
 }

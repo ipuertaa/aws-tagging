@@ -1,8 +1,10 @@
 terraform {
+  #required_version ??
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 4.0.0"
+      version = "~> 3.38.0" # compatible version with default_tags
     }
   }
 }
