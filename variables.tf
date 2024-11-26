@@ -22,13 +22,13 @@ variable "environment" {
 variable "ttl"{
   description = "time to live"
   type        = number
-  nullable = true
+  default     = null 
 }
 
 variable "expiration" {
   description = "Expiration date"
   type = string
-  nullable = true
+  default = ""
   
 }
 

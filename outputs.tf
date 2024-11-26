@@ -13,6 +13,8 @@ output "required_tags" {
         application = var.application
         environment = var.environment
         managedBy = var.managedBy
+        expiration = var.expiration
+        ttl = var.ttl
     }
     )
 }
