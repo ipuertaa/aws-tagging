@@ -14,7 +14,7 @@ output "required_tags" {
         environment = var.environment
         managedBy = var.managedBy
         expiration = var.expiration
-        ttl = var.ttl
+        
     }
     )
 }

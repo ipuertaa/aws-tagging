@@ -19,11 +19,11 @@ variable "environment" {
   type        = string
 }
 
-variable "ttl"{
-  description = "time to live"
-  type        = number
-  default     = null 
-}
+# variable "ttl"{
+#   description = "time to live"
+#   type        = number
+#   default     = null 
+# }
 
 variable "expiration" {
   description = "Expiration date"
